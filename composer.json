@@ -1,0 +1,33 @@
+{
+    "name": "kduma/simple-dal-adapter-contracts",
+    "description": "Simple DAL - Adapter SPI contracts and conformance tests",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "kduma/simple-dal-contracts": "^0.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KDuma\\SimpleDAL\\Adapter\\Contracts\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KDuma\\SimpleDAL\\Adapter\\Contracts\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
